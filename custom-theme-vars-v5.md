@@ -6,9 +6,9 @@
     --font-weight: 400;
     --content-max-width: 800px;
     --heading-font-weight: 700;
-    --theme-color: #9333ea;
-    --link-color: #9333ea;
-    --link-color-hover: var(--link-color);
+    --theme-color: #9333ea !important;
+    --link-color: #9333ea !important;
+    --link-color-hover: var(--link-color) !important;
     --link-underline-thickness: auto;
     --link-underline-thickness-hover: var(--link-underline-thickness);
   }
