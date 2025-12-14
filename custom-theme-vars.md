@@ -1,16 +1,13 @@
 <style>
   :root {
-    --font-family: system-ui,sans-serif;
-    --line-height: 1.4;
-    --font-size: 18px;
-    --font-weight: 400;
+    --base-font-family: system-ui,sans-serif;
+    --base-line-height: 1.4;
+    --base-font-size: 18px;
     --content-max-width: 800px;
     --heading-font-weight: 700;
     --theme-color: #9333ea;
     --link-color: #9333ea;
-    --link-color-hover: var(--link-color);
-    --link-underline-thickness: auto;
-    --link-underline-thickness-hover: var(--link-underline-thickness);
+    --link-color--hover: var(--link-color);
   }
 </style>
 
