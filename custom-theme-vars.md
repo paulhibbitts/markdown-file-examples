@@ -1,16 +1,18 @@
-:root {
-  --font-family: system-ui,sans-serif;
-  --line-height: 1.4;
-  --font-size: 18px;
-  --font-weight: 400;
-  --content-max-width: 800px;
-  --heading-font-weight: 700;
-  --theme-color: #cc0000;
-  --link-color: #cc0000;
-  --link-color-hover: var(--link-color);
-  --link-underline-thickness: auto;
-  --link-underline-thickness-hover: var(--link-underline-thickness);
-}
+<style>
+  :root {
+    --font-family: system-ui,sans-serif;
+    --line-height: 1.4;
+    --font-size: 18px;
+    --font-weight: 400;
+    --content-max-width: 800px;
+    --heading-font-weight: 700;
+    --theme-color: #cc0000;
+    --link-color: #cc0000;
+    --link-color-hover: var(--link-color);
+    --link-underline-thickness: auto;
+    --link-underline-thickness-hover: var(--link-underline-thickness);
+  }
+</style>
 
 Lorem markdownum murmure fidissime suumque. Nivea agris, duarum longaeque Ide
 rugis Bacchum patria tuus dea, sum Thyneius liquor, undique. **Nimium** nostri
