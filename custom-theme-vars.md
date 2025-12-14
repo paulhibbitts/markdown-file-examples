@@ -4,12 +4,14 @@
     --base-line-height: 1.4;
     --base-font-size: 18px;
     --content-max-width: 800px;
-    --heading-font-weight: 700;
+    --heading-h1-font-weight 700;
     --theme-color: #9333ea !important;
     --link-color: #9333ea !important;
     --link-color--hover: var(--link-color);
   }
 </style>
+
+# Title
 
 Lorem markdownum murmure fidissime suumque. Nivea agris, duarum longaeque Ide
 rugis Bacchum patria tuus dea, sum Thyneius liquor, undique. **Nimium** nostri
