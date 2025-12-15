@@ -31,7 +31,7 @@
   .markdown-section h1 {
     font-size: 2.5rem;
     font-weight: 800;
-    border-bottom: 3px solid #9333ea;
+    border-bottom: 3px solid #0d9488;
     padding-bottom: 0.5rem;
     margin-bottom: 2rem;
   }
