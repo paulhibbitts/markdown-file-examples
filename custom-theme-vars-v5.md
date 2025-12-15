@@ -2,7 +2,7 @@
   :root {
     --font-family: system-ui,sans-serif;
     --line-height: 1.4;
-    --font-size: 28px;
+    --font-size: 20px;
     --font-weight: 400;
     --content-max-width: 800px;
     --heading-font-weight: 700;
