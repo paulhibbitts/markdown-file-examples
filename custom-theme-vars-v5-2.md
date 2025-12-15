@@ -1,12 +1,43 @@
 <style>
   :root {
-    --font-family: system-ui,sans-serif;
-    --line-height: 1.4;
-    --font-size: 20px;
-    --font-weight: 400;
-    --content-max-width: 800px;
-    --heading-font-weight: 700;
+    /* Typography */
+    --font-family: system-ui, -apple-system, sans-serif;
+    --font-size: 18px;
+    --line-height: 1.7;
+    --color-text: #374151;
+    --content-max-width: 65ch;
+    
+    /* Theme Color */
     --theme-color: #9333ea;
+    
+    /* Headings */
+    --heading-color: #111827;
+    --heading-font-weight: 700;
+    --heading-line-height: 1.3;
+    
+    /* H1 Specific */
+    --h1-color: #9333ea;
+    --h1-font-size: 2.5rem;
+    --h1-font-weight: 800;
+    --h1-border-bottom: 3px solid #9333ea;
+    --h1-padding-bottom: 0.5rem;
+    --h1-margin-bottom: 2rem;
+    
+    /* H2 Specific */
+    --h2-font-size: 1.875rem;
+    --h2-margin-top: 2.5rem;
+    --h2-margin-bottom: 1.5rem;
+    
+    /* Links */
+    --link-color: #9333ea;
+    --link-color-hover: #7c3aed;
+    --link-underline-thickness: 1px;
+    --link-underline-color: rgba(147, 51, 234, 0.3);
+    --link-underline-color-hover: rgba(147, 51, 234, 0.6);
+    
+    /* Strong/Bold */
+    --strong-color: #111827;
+    --strong-font-weight: 700;
   }
 </style>
 
