@@ -21,8 +21,8 @@
     --heading-h2-margin: 2.5rem 0 1.5rem 0;
     
     /* Links */
-    --link-color: #9333ea !important;
-    --link-color--hover: #7c3aed !important;
+    --link-color: #9333ea;
+    --link-color--hover: #7c3aed;
     --link-text-decoration: underline;
     --link-text-decoration-color: rgba(147, 51, 234, 0.3);
     
@@ -31,7 +31,7 @@
     --strong-font-weight: 700;
     
     /* Theme */
-    --theme-color: #9333ea !important;
+    --theme-color: #9333ea;
   }
 </style>
 
