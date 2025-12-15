@@ -11,7 +11,7 @@
     --theme-color: #9333ea;
     
     /* Headings */
-    --heading-color: #9333ea;
+    --heading-color: #1e293b;
     --heading-font-weight: 700;
     --heading-line-height: 1.3;
     
