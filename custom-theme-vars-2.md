@@ -8,16 +8,15 @@
     --content-max-width: 65ch;
     
     /* Headings */
-    --heading-color: #111827;
     --heading-h1-color: #9333ea;
     --heading-h1-font-size: 2.5rem;
     --heading-h1-font-weight: 800;
     --heading-h1-border-width: 0 0 3px 0;
-    --heading-h1-border-color: #9333ea;
+    --heading-h1-border-color: #1e293b;
     --heading-h1-padding: 0 0 0.5rem 0;
     --heading-h1-margin: 0 0 2rem 0;
 
-    --heading-h2-color: #9333ea;
+    --heading-h2-color: #1e293b;
     --heading-h2-font-size: 1.875rem;
     --heading-h2-font-weight: 700;
     --heading-h2-margin: 2.5rem 0 1.5rem 0;
