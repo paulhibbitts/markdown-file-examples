@@ -5,6 +5,7 @@
     --font-size: 20px;
     --font-weight: 400;
     --content-max-width: 800px;
+    --heading-color: #0891b2;
     --heading-font-weight: 700;
     --theme-color: #9333ea !important;
     --link-color: #9333ea !important;
