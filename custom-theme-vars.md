@@ -6,9 +6,9 @@
     --content-max-width: 800px;
     --heading-h1-font-weight: 700;
     --heading-h2-font-weight: 700;
-    --theme-color: #9333ea !important;
+    --theme-color: #9333ea;
     --link-color: #9333ea !important;
-    --link-color--hover: var(--link-color);
+    --link-color--hover: var(--link-color) !important;
   }
 </style>
 
