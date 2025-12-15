@@ -11,7 +11,7 @@
     --theme-color: #9333ea;
     
     /* Headings */
-    --heading-color: #0d9488;
+    --heading-color: #115e59;
     --heading-font-weight: 700;
     --heading-line-height: 1.3;
     
@@ -31,7 +31,7 @@
   .markdown-section h1 {
     font-size: 2.5rem;
     font-weight: 800;
-    border-bottom: 3px solid #0d9488;
+    border-bottom: 3px solid #115e59;
     padding-bottom: 0.5rem;
     margin-bottom: 2rem;
   }
