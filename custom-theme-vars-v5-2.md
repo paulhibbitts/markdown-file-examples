@@ -2,7 +2,7 @@
   :root {
     /* Typography */
     --font-family: system-ui, -apple-system, sans-serif;
-    --font-size: 18px;
+    --font-size: 20px;
     --line-height: 1.7;
     --color-text: #374151;
     --content-max-width: 65ch;
