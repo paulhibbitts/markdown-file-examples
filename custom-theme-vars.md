@@ -2,7 +2,7 @@
   :root {
     --base-font-family: system-ui,sans-serif;
     --base-line-height: 1.4;
-    --base-font-size: 28px;
+    --base-font-size: 20px;
     --content-max-width: 800px;
     --heading-h1-font-weight: 700;
     --heading-h2-font-weight: 700;
