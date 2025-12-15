@@ -32,7 +32,11 @@
     --strong-font-weight: 700;
     
     /* Theme */
-    --theme-color: #9333ea;
+    --theme-color: var(--link-color);
+
+    /* Sidebar */
+    --sidebar-nav-link-color--active: var(--link-color) !important;
+    --sidebar-nav-link-border-color--active: var(--link-color) !important;
   }
 </style>
 
