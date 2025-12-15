@@ -9,7 +9,7 @@
     
     /* Headings */
     --heading-color: #111827;
-    -- heading-h1-color: #9333ea;
+    --heading-h1-color: #9333ea;
     --heading-h1-font-size: 2.5rem;
     --heading-h1-font-weight: 800;
     --heading-h1-border-width: 0 0 3px 0;
