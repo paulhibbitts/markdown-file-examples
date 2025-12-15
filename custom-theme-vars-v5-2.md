@@ -19,7 +19,7 @@
     --link-color: #9333ea !important;
     --link-color-hover: #7c3aed !important;
     --link-underline-thickness: 1px;
-    --link-underline-color: rgba(147, 51, 234, 0.3);
+    --link-underline-color: rgba(147, 51, 234, 0.3) !important;
     --link-underline-color-hover: rgba(147, 51, 234, 0.6);
     
     /* Strong/Bold */
