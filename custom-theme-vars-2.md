@@ -16,7 +16,8 @@
     --heading-h1-border-color: #9333ea;
     --heading-h1-padding: 0 0 0.5rem 0;
     --heading-h1-margin: 0 0 2rem 0;
-    
+
+    --heading-h2-color: #9333ea;
     --heading-h2-font-size: 1.875rem;
     --heading-h2-font-weight: 700;
     --heading-h2-margin: 2.5rem 0 1.5rem 0;
