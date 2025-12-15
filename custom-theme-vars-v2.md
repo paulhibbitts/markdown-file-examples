@@ -5,7 +5,7 @@
     --base-font-size: 18px;
     --base-line-height: 1.7;
     --base-color: #374151;
-    --content-max-width: 720px;
+    --content-max-width: 65ch;
     
     /* Headings */
     --heading-color: #111827;
@@ -32,14 +32,6 @@
     
     /* Theme */
     --theme-color: #9333ea !important;
-  }
-  
-  /* Better list markers */
-  .markdown-section ul li::before {
-    content: "→";
-    color: #9333ea;
-    font-weight: bold;
-    margin-right: 0.5em;
   }
 </style>
 
