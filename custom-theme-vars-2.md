@@ -25,6 +25,7 @@
     --link-color--hover: #7c3aed !important;
     --link-text-decoration: underline;
     --link-text-decoration-color: rgba(147, 51, 234, 0.3) !important;
+    --link-text-decoration-color--hover: rgba(124, 58, 237, 0.6) !important;
     
     /* Strong/Bold */
     --strong-color: #111827;
