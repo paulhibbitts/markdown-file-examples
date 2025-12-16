@@ -37,6 +37,9 @@
     /* Sidebar */
     --sidebar-nav-link-color--active: var(--link-color) !important;
     --sidebar-nav-link-border-color--active: var(--link-color) !important;
+
+    /* Navbar */
+    --navbar-root-color--active: var(--link-color) !important;
   }
 </style>
 
