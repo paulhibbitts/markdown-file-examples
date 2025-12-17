@@ -7,16 +7,16 @@
     --color-text: #374151;
     --content-max-width: 65ch;
     
-    /* Theme Color */
-    --theme-color: #9333ea;
-    
     /* Headings */
     --heading-color: #0891b2;
     --heading-font-weight: 700;
     --heading-line-height: 1.3;
     
+    /* Theme */
+    --theme-color: #9333ea !important;
+
     /* Links */
-    --link-color: var(--link-color) !important;
+    --link-color: var(--theme-color !important;
     --link-underline-thickness: auto;
     --link-underline-thickness-hover: var(--link-underline-thickness);
     
