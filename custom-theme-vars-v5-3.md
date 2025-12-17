@@ -16,6 +16,9 @@
     --heading-line-height: 1.3;
     
     /* Links */
+    --link-color: var(--link-color) !important;
+    --link-underline-thickness: auto;
+    --link-underline-thickness-hover: var(--link-underline-thickness);
     
     /* Strong/Bold */
     --strong-color: #111827;
