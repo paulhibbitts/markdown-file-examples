@@ -14,7 +14,7 @@
     --heading-font-weight: 700;
 
     /* Theme */
-    --theme-color: #9333ea;
+    --theme-color: #9333ea !important;
 
     /* Links */
     --link-color: var(--theme-color) !important;
