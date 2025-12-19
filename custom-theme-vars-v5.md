@@ -17,8 +17,8 @@
     --theme-color: #9333ea !important;
 
     /* Links */
-    --link-color: var(--theme-color) !important;
-    --link-color-hover: var(--theme-color) !important;
+    --link-color: var(--theme-color);
+    --link-color-hover: var(--theme-color);
     --link-underline-thickness: auto;
     --link-underline-thickness-hover: var(--link-underline-thickness);
     --sidebar-font-size: 18px;
