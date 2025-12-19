@@ -24,6 +24,7 @@
     --sidebar-name-color: var(--theme-color) !important;
     --sidebar-nav-link-color--active: var(--theme-color) !important;
     --sidebar-nav-link-border-color--active: var(--theme-color) !important;
+    --sidebar-name-font-size: 18px;
 
   }
 </style>
