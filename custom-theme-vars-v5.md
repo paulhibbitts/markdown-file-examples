@@ -1,15 +1,24 @@
 <style>
   :root {
+    /* Typography */
     --font-family: system-ui,sans-serif;
     --line-height: 1.4;
     --font-size: 20px;
     --font-weight: 400;
+
+    /* Content */
     --content-max-width: 800px;
+
+    /* Headings */
     --heading-color: #0891b2;
     --heading-font-weight: 700;
-    --theme-color: #9333ea !important;
-    --link-color: #9333ea !important;
-    --link-color-hover: var(--link-color) !important;
+
+    /* Theme */
+    --theme-color: #9333ea;
+
+    /* Links */
+    --link-color: var(--theme-color) !important;
+    --link-color-hover: var(--theme-color) !important;
     --link-underline-thickness: auto;
     --link-underline-thickness-hover: var(--link-underline-thickness);
   }
