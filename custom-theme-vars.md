@@ -1,15 +1,30 @@
 <style>
   :root {
+    /* Typography */
     --base-font-family: system-ui,sans-serif;
     --base-line-height: 1.4;
     --base-font-size: 20px;
+
+    /* Content */
     --content-max-width: 800px;
+
+    /* Headings */
     --heading-color : #0891b2;
     --heading-h1-font-weight: 700;
     --heading-h2-font-weight: 700;
+
+    /* Theme */
     --theme-color: #9333ea;
-    --link-color: #9333ea !important;
-    --link-color--hover: var(--link-color) !important;
+
+    /* Links */
+    --link-color: var(--theme-color) !important;
+    --link-color--hover: var(--theme-color) !important;
+
+    /* Sidebar */
+    --sidebar-name-color: var(--theme-color) !important;
+    --sidebar-nav-link-color--active: var(--theme-color) !important;
+    --sidebar-nav-link-border-color--active: var(--theme-color) !important;
+
   }
 </style>
 
