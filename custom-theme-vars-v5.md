@@ -24,48 +24,175 @@
   }
 </style>
 
-# Title
+# Theme CSS Variable Demo
 
-Lorem markdownum murmure fidissime suumque. Nivea agris, duarum longaeque Ide
-rugis Bacchum patria tuus dea, sum Thyneius liquor, undique. **Nimium** nostri
-vidisset fluctibus **mansit** limite rigebant; enim satis exaudi attulit tot
-lanificae [indice](http://www.mozilla.org/) Tridentifer laesum. Movebo et fugit,
-limenque per ferre graves causa neque credi epulasque isque celebravit pisces.
+Explore the wide range of Markdown features available for creating various types of content.
 
-- Iasone filum nam rogat
-- Effugere modo esse
-- Comminus ecce nec manibus verba Persephonen taxo
-- Viribus Mater
-- Bello coeperunt viribus ultima fodiebant volentem spectat
-- Pallae tempora
+## Headings
+### H3 Heading
+#### H4 Heading
+##### H5 Heading
+###### H6 Heading
 
-## Fuit tela Caesareos tamen per balatum
+## Text Formatting
+Some **bold text** and *italic text* and ~~strikethrough text~~.
 
-De obstruat, cautes captare Iovem dixit gloria barba statque. Purpureum quid
-puerum dolosae excute, debere prodest **ignes**, per Zanclen pedes! *Ipsa ea
-tepebat*, fiunt, Actoridaeque super perterrita pulverulenta. Quem ira gemit
-hastarum sucoque, idem invidet qui possim mactatur insidiosa recentis, **res
-te** totumque [Capysque](http://tumblr.com/)! Modo suos, cum parvo coniuge, iam
-sceleris inquit operatus, abundet **excipit has**.
+You can also use `inline code` within sentences.
 
-In locumque _perque_ infelix hospite parente adducto aequora Ismarios,
-feritatis. Nomine amantem nexibus te _secum_, genitor est nervo! Putes
-similisque festumque. Dira custodia nec antro inornatos nota aris, ducere nam
-genero, virtus rite.
+## Links
+### Standard Links
+[External link](https://docsify.js.org)  
+[Link with title](https://docsify.js.org "Docsify Documentation")  
 
-- Citius chlamydis saepe colorem paludosa territaque amoris
-- Hippolytus interdum
-- Ego uterque tibi canis
-- Tamen arbore trepidosque
+### Anchor Links
+[Jump to Summary](#summary)  
+[Go to Code Blocks](#code-blocks)  
 
-## Colit potiora ungues plumeus de glomerari num
+### Auto-linked URLs
+https://docsify.js.org  
+<https://github.com>  
 
-Conlapsa tamen innectens spes, in Tydides studio in puerili quod. Ab natis non
-**est aevi** esse riget agmenque nutrit fugacis.
+## Lists
+### Unordered List
+* bullet
+* items
+  * nested item
+  * another nested item
 
-- Coortis vox Pylius namque herbosas tuae excedere
-- Tellus terribilem saetae Echinadas arbore digna
-- Erraverit lectusque teste fecerat
+### Ordered List
+1. Numbered list
+1. Of items
+   1. Sub-item
+   1. Another sub-item
 
-Suoque descenderat illi; quaeritur ingens cum periclo quondam flaventibus onus
-caelum fecit bello naides ceciderunt cladis, enim. Sunt aliquis.
+### Task List
+- [x] Completed task
+- [ ] Incomplete task
+- [ ] Another task to do
+
+## Tables
+| Feature | Supported | Notes |
+|---------|-----------|-------|
+| Headers | ✅ | All heading levels |
+| Lists | ✅ | Ordered, unordered, nested |
+| Code | ✅ | Inline and blocks |
+| Tables | ✅ | With alignment |
+
+## Quote
+> Quoted text
+> 
+> Multi-line quotes are also supported
+> with proper formatting.
+
+## Code Blocks
+### JavaScript
+```javascript
+function hello(name) {
+    return `Hello, ${name}!`;
+}
+```
+
+### Python
+```python
+def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n-1) + fibonacci(n-2)
+```
+
+## Images
+![Image of Minion](https://octodex.github.com/images/minion.png)
+
+## Horizontal Rule
+Content above the line.
+
+---
+
+Content below the line.
+
+## Emoji Support
+Status: :white_check_mark: :x: :warning: | Feedback: :thumbsup: :heart: :fire: | Objects: :bulb: :key: :rocket:
+
+## Alerts/Callouts (GitHub-flavored)
+> [!NOTE]
+> Highlights information that users should take into account.
+
+> [!TIP]
+> Optional information to help a user be more successful.
+
+> [!WARNING]
+> Critical content demanding user attention due to potential risks.
+
+## Mermaid Diagrams
+### Flow Chart
+```mermaid
+flowchart TD
+    A[Start] --> B{Is it?}
+    B -->|Yes| C[OK]
+    C --> D[Rethink]
+    D --> B
+    B ---->|No| E[End]
+```
+
+### Sequence Diagram Example
+```mermaid
+sequenceDiagram
+    Alice->>John: Hello John, how are you?
+    John-->>Alice: Great!
+    Alice-)John: See you later!
+```
+
+More information about **mermaid** syntax [here](https://mermaid-js.github.io/mermaid/).
+
+## LaTeX Mathematical Expressions
+Inline: $ax^2 + bx + c = 0$ and block:
+$$
+x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}
+$$
+
+More information about **LaTeX** mathematical expressions [here](https://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
+
+## Keyboard Shortcuts
+Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy.
+
+## Definition Lists
+Term 1
+: Definition of term 1
+
+Term 2
+: Definition of term 2
+: Another definition for term 2
+
+## Footnotes
+Here's a sentence with a footnote[^1].
+
+[^1]: This is the footnote text.
+
+## HTML & Special Elements
+Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy.
+
+Escape literal \*asterisks\* with backslashes.
+
+<details>
+<summary>Click to expand</summary>
+This content is hidden by default and can be toggled.
+</details>
+
+### Embedded Video
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HUBNt18RFbo" title="Markdown Explained" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+
+---
+
+## Summary
+This demo showcases the various Markdown features, including:
+- Text formatting and structural elements
+- Comprehensive linking capabilities
+- Lists and organized content presentation
+- Tables and quoted content
+- Code syntax highlighting
+- Images and visual separators
+- Emoji support for enhanced communication
+- GitHub-flavored alerts and callouts
+- Interactive diagrams with Mermaid
+- Mathematical expressions with LaTeX
+- Special HTML elements and formatting
