@@ -1,0 +1,8 @@
+- My Title
+  - [Read Me](README)
+- [Example Second Page](second-page)
+- Getting started
+  - [Quick start](quickstart)
+- Customization
+  - [Configuration](configuration)
+- Standalone item
