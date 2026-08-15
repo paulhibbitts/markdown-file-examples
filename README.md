@@ -3,3 +3,9 @@
 This is a test edit.
 
 [link](https://google.com ':[class=aCssClass anotherCssClass]')
+
+# H1
+
+## H2
+
+### H3
