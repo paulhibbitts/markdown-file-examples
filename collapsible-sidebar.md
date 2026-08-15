@@ -1,5 +1,4 @@
-- My Title
-  - [Read Me](README)
+- [Read Me](README)
 - [Example Second Page](second-page)
 - Getting started
   - [Quick start](quickstart)
