@@ -46,6 +46,104 @@ A test page for content that should look the same here, in this page's Markdown 
 > 
 > A caution, for actions that can't be undone.
 
+## Callout Shortcodes
+
+The theme's callout shortcodes, as in Grav Helios Open Reader. Each draws a callout box of one of the five types, with its own heading.
+
+> [!TIP]
+> 
+> **Learning Objectives**
+> 
+> - Write content once, in Markdown
+> - Show it in more than one place
+
+> [!NOTE]
+> 
+> **Key Takeaways**
+> 
+> Plain Markdown keeps content portable.
+
+> [!TIP]
+> 
+> **Reflection**
+> 
+> Where else could this page be useful?
+
+> [!NOTE]
+> 
+> **Open Educational Resources**
+> 
+> Teaching and learning materials that anyone can keep, reuse, revise, remix and share.
+
+> [!IMPORTANT]
+> 
+> **Example**
+> 
+> A guide written once, shown on a Grav site, in an LMS and in Docsify-This.
+
+> [!CAUTION]
+> 
+> **Case Study**
+> 
+> A course that moved from an LMS to an open site, without rewriting its pages.
+
+> [!WARNING]
+> 
+> **Project Brief**
+> 
+> Turn one chapter of an open textbook into a short guide.
+
+> [!NOTE]
+> 
+> **Process Note**
+> 
+> This page was checked in Grav, its Markdown version and Docsify-This.
+
+> [!IMPORTANT]
+> 
+> **Feedback Requested**
+> 
+> Does every box below look right in each place?
+
+> [!IMPORTANT]
+> 
+> **Announcement**
+> 
+> An announcement, as Important by default.
+
+> [!NOTE]
+> 
+> **Class Cancelled**
+> 
+> An announcement as a Note, with its own heading.
+
+> [!TIP]
+> 
+> **Interactive Activity**
+> 
+> [Open Interactive Activity ](https://h5p.org/node/1291)
+> 
+> Try the activity, then come back to this page.
+
+References
+
+- Wiley, D. (2014). *The Access Compromise and the 5th R*.
+- Hibbitts, P. (2026). *Read, Move, Reuse*.
+
+> Open content belongs to the people who write it.
+
+## Markdown Notices
+
+The Markdown Notices plugin's boxes, written with one to four `!` at the start of a line:
+
+A yellow notice, with a single `!`.
+
+A red notice, with two.
+
+A blue notice, with three.
+
+A green notice, with four.
+
 ## LaTeX Math
 
 Within a sentence: the area of a circle is $A = \pi r^2$, and the average of $x_1$ to $x_n$ is $\bar{x}$. Prices such as $5 and $10 stay as text.
@@ -71,6 +169,14 @@ $$ e^{i\pi} + 1 = 0 $$
 > The quadratic formula solves $ax^2 + bx + c = 0$:
 > 
 > $$ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
+
+> [!NOTE]
+> 
+> Steps lined up inside a callout, with `\\` for new lines:
+> 
+> $$ \begin{aligned} (a - b)^2 &= (a - b)(a - b) \\ &= a^2 - 2ab + b^2 \end{aligned} $$
+> 
+> And within a sentence: $$ \sum_{i=1}^{n} i = \frac{n(n+1)}{2} $$ and on it goes.
 
 ## Mermaid Diagrams
 
