@@ -1,9 +1,9 @@
 ---
-title: 'Tools for Open Course Design'
-url: 'http://localhost:8080/_TESTS/grav-skeleton-open-publishing-space/open-education-essentials/tools-for-open-course-design'
-markdown: 'http://localhost:8080/_TESTS/grav-skeleton-open-publishing-space/open-education-essentials/tools-for-open-course-design.md'
-date: '2026-10-26'
-description: "By the end of this section you will be able to Compare Grav and Docsify-based approaches for open course content Explain how Git Sync enables version-controlled course content Embed a Grav or Docsify page into an LMS using a URL parameter Building open course content doesn't require learning a n…"
+title: 'Portable Content Test'
+url: 'http://localhost:8080/_TESTS/grav-skeleton-open-publishing-space/portable-content-test'
+markdown: 'http://localhost:8080/_TESTS/grav-skeleton-open-publishing-space/portable-content-test.md'
+date: '2026-10-29'
+description: "A test page for content that should look the same here, in this page's Markdown version (add .md to its address) and in Docsify-This: callouts, LaTeX math and Mermaid diagrams. Callouts Note A note, for useful background. It can hold bold, italics, code and a link. Tip A tip, with a list: …"
 taxonomy:
   archives_month:
     - oct_2026
@@ -11,80 +11,112 @@ taxonomy:
     - '2026'
 ---
 
-Section 2
+# Portable Content Test
 
-# Tools for Open Course Design
+A test page for content that should look the same here, in this page's Markdown version (add `.md` to its address) and in Docsify-This: callouts, LaTeX math and Mermaid diagrams.
 
-On this page
+## Callouts
 
-- [A Full Site with Grav](#a-full-site-with-grav)
-- [A Single Page with Docsify-This](#a-single-page-with-docsif)
-- [Showing Only the Content](#showing-only-the-content)
+> [!NOTE]
+> 
+> A note, for useful background. It can hold **bold**, *italics*, `code` and [a link](https://docsify-this.net).
 
 > [!TIP]
 > 
-> **By the end of this section you will be able to**
+> A tip, with a list:
 > 
-> - Compare Grav and Docsify-based approaches for open course content
-> - Explain how Git Sync enables version-controlled course content
-> - Embed a Grav or Docsify page into an LMS using a URL parameter
-
-Building open course content doesn't require learning a new authoring system from scratch. The tools covered here are designed to layer on top of workflows you likely already use.
-
-## A Full Site with Grav
-
-[Grav](https://getgrav.org) is a flat-file CMS – all content is stored as Markdown files, with no database required. Pair it with the Git Sync plugin and every save is automatically committed to a GitHub or Codeberg repository.
-
-**Best for:** Educators who want a full-featured course or reader site with an Admin Panel, multi-contributor support, and rich theming.
-
-## A Single Page with Docsify-This
-
-[Docsify-This](https://docsify-this.net) takes a different approach – paste the URL of any public Markdown file and get back a styled, shareable web page instantly. No account, no configuration, nothing to install.
-
-**Best for:** Sharing a single page or section instantly, or publishing a reading without setting up a full site.
-
-## Showing Only the Content
-
-Both Grav and Docsify support clean content-only views via a URL parameter:
-
-```
-https://yoursite.com/open-education-essentials/what-is-open-education?chromeless=true
-```
-
-Adding `?chromeless=true` removes the header, sidebar, and footer – leaving only the content for embedding in an iFrame inside Canvas, Moodle, or Brightspace.
+> - Write once in Markdown
+> - Show it anywhere
+> - Let others reuse it
 
 > [!IMPORTANT]
 > 
-> **Tip for Canvas Users**
+> Something readers shouldn't miss, over two paragraphs.
 > 
-> Use the **External Tool** option (not iFrame embed) for the best accessibility and mobile experience when embedding open content in Canvas.
+> This is the second paragraph.
 
-This work by [Your Name](#) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+> [!WARNING]
+> 
+> A warning, with a numbered list:
+> 
+> 1. Keep a copy of your files
+> 2. Check the licence before you reuse
 
-- Open Education
-- [What is Open Education?](http://localhost:8080/_TESTS/grav-skeleton-open-publishing-space/open-education-essentials/what-is-open-education)
-- [Tools for Open Course Design](http://localhost:8080/_TESTS/grav-skeleton-open-publishing-space/open-education-essentials/tools-for-open-course-design)
-- - [A Full Site with Grav](#a-full-site-with-grav)
-    - [A Single Page with Docsify-This](#a-single-page-with-docsif)
-    - [Showing Only the Content](#showing-only-the-content)
-- [LMS Embedding](http://localhost:8080/_TESTS/grav-skeleton-open-publishing-space/open-education-essentials/tools-for-open-course-design/lms-embedding)
-- [Git Sync – Version-Controlled Content](http://localhost:8080/_TESTS/grav-skeleton-open-publishing-space/open-education-essentials/tools-for-open-course-design/git-sync)
-- [Docsify-This for Instant Publishing](http://localhost:8080/_TESTS/grav-skeleton-open-publishing-space/open-education-essentials/tools-for-open-course-design/docsify-this)
+> [!CAUTION]
+> 
+> A caution, for actions that can't be undone.
 
-- [Getting Started with Open Authoring](http://localhost:8080/_TESTS/grav-skeleton-open-publishing-space/open-education-essentials/getting-started-with-open-authoring)
-- Publishing with This Site
-- [Growing Your Guide](http://localhost:8080/_TESTS/grav-skeleton-open-publishing-space/open-education-essentials/growing-your-guide)
+## LaTeX Math
 
-Want to see these tools in a real course? [Try the Open Course Hub demo](https://demo.hibbittsdesign.org/grav-open-course-hub/)
+Within a sentence: the area of a circle is $A = \pi r^2$, and the average of $x_1$ to $x_n$ is $\bar{x}$. Prices such as $5 and $10 stay as text.
+
+A block:
+
+$$ \bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_i $$
+
+Steps lined up, with `\\` for new lines:
+
+$$ \begin{aligned} (a + b)^2 &= (a + b)(a + b) \\ &= a^2 + 2ab + b^2 \end{aligned} $$
+
+A matrix and chemistry: $\begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$ and $\ce{2H2 + O2 -> 2H2O}$.
+
+A math block:
+
+$$ e^{i\pi} + 1 = 0 $$
+
+## Math Inside a Callout
+
+> [!TIP]
+> 
+> The quadratic formula solves $ax^2 + bx + c = 0$:
+> 
+> $$ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
+
+## Mermaid Diagrams
+
+A flowchart:
+
+```mermaid
+flowchart LR
+    A[Write in Markdown] --> B[Publish with Grav]
+    B --> C[Markdown version]
+    C --> D[Docsify-This]
+    C --> E[GitHub or Codeberg]
+```
+
+A sequence diagram:
+
+```mermaid
+sequenceDiagram
+    participant Author
+    participant Grav
+    participant Reader
+    Author->>Grav: Save a page
+    Reader->>Grav: Ask for page.md
+    Grav-->>Reader: The page as Markdown
+```
+
+A pie chart:
+
+```mermaid
+pie title Time spent
+    "Writing" : 50
+    "Reviewing" : 30
+    "Publishing" : 20
+```
+
+## Code Stays Code
+
+`$x$`, `> [!NOTE]` and this block are code, so nothing in them is drawn:
+
+```markdown
+> [!NOTE]
+> A callout written in Markdown, with $x^2$ math.
+```
 
 ---
 
 ## Navigation
 
-- Parent: [Open Education Essentials](http://localhost:8080/_TESTS/grav-skeleton-open-publishing-space/index.md)
-- Previous: [What is Open Education?](http://localhost:8080/_TESTS/grav-skeleton-open-publishing-space/open-education-essentials/what-is-open-education.md)
-- Next: [Getting Started with Open Authoring](http://localhost:8080/_TESTS/grav-skeleton-open-publishing-space/open-education-essentials/getting-started-with-open-authoring.md)
-- Children:
-  - [LMS Embedding](http://localhost:8080/_TESTS/grav-skeleton-open-publishing-space/open-education-essentials/tools-for-open-course-design/lms-embedding.md)
-  - [Git Sync – Version-Controlled Content](http://localhost:8080/_TESTS/grav-skeleton-open-publishing-space/open-education-essentials/tools-for-open-course-design/git-sync.md)
-  - [Docsify-This for Instant Publishing](http://localhost:8080/_TESTS/grav-skeleton-open-publishing-space/open-education-essentials/tools-for-open-course-design/docsify-this.md)
+- Previous: [Read Me](http://localhost:8080/_TESTS/grav-skeleton-open-publishing-space/readme.md)
+- Next: [Search](http://localhost:8080/_TESTS/grav-skeleton-open-publishing-space/search.md)
